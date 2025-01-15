@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safari Adventures - African Wildlife Journal</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f1ea;
+        }
+
+        header {
+            background-color: #4a3933;
+            color: #e6d5b8;
+            text-align: center;
+            padding: 3rem;
+            background-image: linear-gradient(rgba(74, 57, 51, 0.9), rgba(74, 57, 51, 0.9));
+        }
+
+        nav {
+            background-color: #6b4f3c;
+            padding: 1rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            text-align: center;
+        }
+
+        nav a {
+            color: #e6d5b8;
+            text-decoration: none;
+            margin: 0 1rem;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+            font-family: 'Arial', sans-serif;
+        }
+
+        nav a:hover {
+            background-color: #8b7355;
+            color: white;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .article {
+            background-color: white;
+            margin-bottom: 3rem;
+            border-radius: 10px;
+            padding: 2rem;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-size: 2.8rem;
+            margin-bottom: 0.5rem;
+        }
+
+        h2 {
+            color: #4a3933;
+            border-bottom: 2px solid #e6d5b8;
+            padding-bottom: 0.5rem;
+            margin-top: 2rem;
+        }
+
+        h3 {
+            color: #6b4f3c;
+            margin-top: 1.5rem;
+        }
+
+        .header-subtitle {
+            font-style: italic;
+            color: #e6d5b8;
+            font-size: 1.2rem;
+        }
+
+        .article-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin: 20px 0;
+            display: block;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .article-image:hover {
+            transform: scale(1.02);
+        }
+
+        .article p {
+            text-align: justify;
+            color: #555;
+            margin-bottom: 1.2rem;
+        }
+
+        .read-more {
+            display: inline-block;
+            margin-top: 1rem;
+            color: #6b4f3c;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 0.5rem 1rem;
+            border: 2px solid #6b4f3c;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .read-more:hover {
+            background-color: #6b4f3c;
+            color: white;
+        }
+
+        .quote {
+            font-style: italic;
+            border-left: 4px solid #e6d5b8;
+            padding-left: 1rem;
+            margin: 2rem 0;
+            color: #666;
+        }
+
+        .fact-box {
+            background-color: #f8f5f0;
+            border: 1px solid #e6d5b8;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #4a3933;
+            color: #e6d5b8;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 2rem;
+        }
+
+        .footer-links {
+            margin-bottom: 1rem;
+        }
+
+        .footer-links a {
+            color: #e6d5b8;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 1rem;
+            }
+            
+            nav a {
+                display: block;
+                margin: 0.5rem 0;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Safari Adventures</h1>
+        <p class="header-subtitle">Exploring Africa's Wildest Wonders</p>
+    </header>
+
+    <nav>
+        <a href="#big-five">The Big Five</a>
+        <a href="#savanna">The Savanna</a>
+        <a href="#guides">Safari Guides</a>
+        <a href="#photography">Photography</a>
+        <a href="#conservation">Conservation</a>
+    </nav>
+
+    <div class="container">
+        <section id="big-five" class="article">
+            <h2>Tracking the Big Five</h2>
+            <img src="images/pride_of_lions.jpeg" 
+                 alt="Pride of lions in their natural habitat" 
+                 class="article-image">
+            <p>Deep in the heart of the Serengeti, we witnessed the majesty of Africa's most iconic creatures. Lions lounging in the golden grass, elephants trumpeting their presence at the watering hole, and the elusive leopard draped across an acacia branch. The Big Five aren't just animals; they're the living, breathing spirit of Africa's wilderness.</p>
+            
+            <h3>The African Lion</h3>
+            <img src="images/lionmane2.jpg" 
+                 alt="Majestic male lion with full mane" 
+                 class="article-image">
+            <p>Known as the king of the jungle, though rarely found in one, the African lion is a symbol of strength and majesty. These social cats live in prides, with females doing most of the hunting while males protect the territory. During our recent expedition, we witnessed an incredible hunting sequence where three lionesses coordinated perfectly to bring down a wildebeest.</p>
+            
+            <div class="fact-box">
+                <h3>Lion Facts</h3>
+                <p>• Average pride size: 10-15 lions<br>
+                   • Lifespan: 10-14 years in the wild<br>
+                   • Hunting success rate: 30%<br>
+                   • Territory size: Up to 100 square miles</p>
+            </div>
+
+            <h3>The African Elephant</h3>
+            <img src="images/elephantpic.jpeg" 
+                 alt="African elephant in its natural habitat" 
+                 class="article-image">
+            <p>The largest land mammals on Earth, African elephants are incredibly intelligent and social creatures. Their complex family structures and emotional depth continue to amaze researchers. We spent three days following a herd through the Okavango Delta, observing their fascinating social interactions and remarkable parenting behaviors.</p>
+            
+            <a href="#" class="read-more">Continue reading about the Big Five →</a>
+        </section>
+
+        <section id="savanna" class="article">
+            <h2>Life on the Savanna</h2>
+            <img src="images/Wide landscape shot of savanna at dawn.jpeg" 
+                 alt="Breathtaking savanna landscape at dawn" 
+                 class="article-image">
+            <p>The African savanna is a masterpiece of nature's design. At dawn, the landscape comes alive with the sounds of thousands of wildebeest beginning their daily journey. Zebras move in synchronized patterns, while giraffes gracefully browse the treetops. This is the stage where the greatest wildlife show on Earth unfolds every single day.</p>
+
+            <h3>The Great Migration</h3>
+            <img src="images/Wildebeest crossing the Mara River.jpeg" 
+                 alt="Dramatic wildebeest river crossing" 
+                 class="article-image">
+            <p>Each year, over two million wildebeest, zebras, and gazelles make the perilous journey across the Serengeti-Mara ecosystem. This spectacular migration is one of the most remarkable natural events on the planet, and we were fortunate enough to witness several river crossings during the peak season.</p>
+
+            <div class="quote">
+                "The savanna teaches us that life is a delicate balance between survival and harmony. Every creature, from the smallest dung beetle to the tallest giraffe, plays a crucial role in this magnificent ecosystem."
+            </div>
+            
+            <a href="#" class="read-more">Explore the Savanna →</a>
+        </section>
+
+        <section id="guides" class="article">
+            <h2>The Master Safari Guides</h2>
+            <img src="images/Guide pointing out wildlife tracks to tourists2.jpeg" 
+                 alt="Expert guide explaining wildlife tracks" 
+                 class="article-image">
+            <p>Our journey wouldn't be complete without the incredible knowledge of local guides. These masters of the bush read the landscape like a book, understanding every footprint, sound, and movement. Their expertise transforms a simple game drive into an educational adventure, revealing the intricate connections between every creature in this complex ecosystem.</p>
+
+            <h3>Traditional Knowledge</h3>
+            <img src="images/Guide demonstrating traditional tracking methods2.jpeg" 
+                 alt="Guide showing traditional tracking techniques" 
+                 class="article-image">
+            <p>Many of our guides come from families that have lived alongside these animals for generations. Their knowledge combines modern conservation science with traditional ecological wisdom, providing unique insights into wildlife behavior and ecosystem management.</p>
+            
+            <a href="#" class="read-more">Meet our Safari Guides →</a>
+        </section>
+
+        <section id="photography" class="article">
+            <h2>Safari Photography Tips</h2>
+            <img src="images/Photographer with telephoto lens at sunset.jpeg" 
+                 alt="Professional wildlife photographer at work" 
+                 class="article-image">
+            <p>Capturing the perfect wildlife photograph requires patience, skill, and a deep understanding of animal behavior. Our professional photographers share their top tips for getting that perfect shot while respecting wildlife.</p>
+
+            <div class="fact-box">
+                <h3>Essential Camera Gear</h3>
+                <p>• Camera Body: Full-frame for low light performance<br>
+                   • Lenses: 100-400mm minimum for wildlife<br>
+                   • Support: Sturdy tripod or beanbag<br>
+                   • Accessories: Dust protection and extra batteries</p>
+            </div>
+            
+            <a href="#" class="read-more">Learn Photography Tips →</a>
+        </section>
+
+        <section id="conservation" class="article">
+            <h2>Conservation Efforts</h2>
+            <img src="images/Anti-poaching team on patrol2.jpeg" 
+                 alt="Anti-poaching team conducting patrol" 
+                 class="article-image">
+            <p>Conservation is at the heart of everything we do. We work closely with local communities and wildlife organizations to protect these magnificent creatures and their habitats for future generations.</p>
+
+            <h3>Community Initiatives</h3>
+            <img src="images/Local school children learning about wildlife2.jpeg" 
+                 alt="Local children engaged in wildlife education" 
+                 class="article-image">
+            <p>Our community-based conservation programs focus on education, sustainable development, and creating economic opportunities through responsible tourism. These initiatives help ensure that local communities benefit from and actively participate in wildlife conservation.</p>
+            
+            <a href="#" class="read-more">Support Conservation →</a>
+        </section>
+    </div>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+            <a href="#">Book a Safari</a>
+            <a href="#">Privacy Policy</a>
+        </div>
+        <p>© 2025 Safari Adventures Blog | Discovering Africa's Wildlife</p>
+        <p>Follow us on social media for daily wildlife updates</p>
+    </footer>
+</body>
+</html>
